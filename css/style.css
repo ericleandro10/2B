@@ -1,0 +1,101 @@
+/* PAGE SETTINGS */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;1,600&family=Noto+Serif+Sinhala:wght@300&display=swap');
+
+/* VARIABLES */
+:root {
+    --cor1: #08080D;
+    --cor2: #181926;
+    --cor3: #394159;
+    --cor4: #736A6B;
+    --cor5: #BFB8B9;
+}
+
+/* HEADER */
+header {
+    padding: 10px;
+    background-color: var(--cor2);
+    justify-content: space-between;    
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    text-align: left;
+    margin-left: 90px;
+    font-size: 20px;
+    color: var(--cor5);
+    font-weight: 600;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--cor5);
+    padding: 0 10px 0 10px;
+    font-weight: 600;
+}
+
+header a:hover {
+    cursor: pointer;
+    color: var(--cor3);
+}
+
+/* SECTION */
+section {
+    margin-top: 90px;
+}
+
+
+.foto {
+    border-radius: 50%;
+}
+
+.nome {
+    font-size: 27px;
+    color: var(--cor3);
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.about {
+    font-size: 18px;
+    color: var(--cor4);
+    font-weight: 600;
+}
+
+.redes-sociais {
+    padding-top: 20px;;
+}
+
+/*  FOOTER  */
+.rodape {
+    background-color: var(--cor2);
+    color: var(--cor5);
+    padding: 6px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.rodape a {
+    color: var(--cor5);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    cursor: pointer;
+    color: var(--cor3);
+}
+
