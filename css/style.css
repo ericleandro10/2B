@@ -78,6 +78,10 @@ section {
     padding-top: 20px;;
 }
 
+section p {
+    padding-bottom: 40px;
+}
+
 /*  FOOTER  */
 .rodape {
     background-color: var(--cor2);
